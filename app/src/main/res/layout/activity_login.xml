@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+
+    <zhou.com.theold.view.CircleImageView
+        android:id="@+id/im_model"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@mipmap/model" />
+
+    <EditText
+        android:id="@+id/et_login_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/im_model"
+        android:hint="请输入账号" />
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_login_name"
+        android:hint="请输入密码"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_login_password"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_bg"
+        android:padding="10dp"
+        android:text="登 录"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

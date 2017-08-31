@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7EBEC">
+
+            <TextView
+                android:id="@+id/tv_data_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/back"
+                android:text="详细资料"
+                android:textColor="#1296db"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:text="填写资料" />
+
+            <TextView
+                android:id="@+id/tv_upload"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="上传"
+                android:textColor="#1296db" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_username"
+                style="@style/textStyle"
+                android:text="姓名" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                style="@style/textStyle"
+                android:layout_marginTop="45dp"
+                android:text="照片" />
+
+            <ImageView
+                android:id="@+id/iv_more"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:background="#F7EBEC"
+                />
+
+            <TextView
+                style="@style/rightArrowStyle"
+                android:layout_marginTop="45dp" />
+
+            <TextView
+                style="@style/underlineStyle"
+                android:layout_below="@id/iv_more"
+                android:layout_marginTop="5dp" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_gender"
+                style="@style/textStyle"
+                android:text="性别" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_birthday"
+                style="@style/textStyle"
+                android:text="出生日期" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_town_id"
+                style="@style/textStyle"
+                android:text="所属镇区：" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_diploma"
+                style="@style/textStyle"
+                android:text="文化程度" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_religion"
+                style="@style/textStyle"
+                android:text="宗教信仰" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_marriage"
+                style="@style/textStyle"
+                android:text="婚姻状态" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_living"
+                style="@style/textStyle"
+                android:text="居住方式" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_income"
+                style="@style/textStyle"
+                android:text="个人收入/月" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_incomeways"
+                style="@style/textStyle"
+                android:text="收入方式" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_payways"
+                style="@style/textStyle"
+                android:text="支付方式" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_oafish"
+                style="@style/textStyle"
+                android:text="痴呆程度" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_insanity"
+                style="@style/textStyle"
+                android:text="精神病表现" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_illness"
+                style="@style/textStyle"
+                android:text="患病" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/rlStyle">
+
+            <TextView
+                android:id="@+id/rl_accident"
+                style="@style/textStyle"
+                android:text="意外事件" />
+
+            <TextView style="@style/rightArrowStyle" />
+
+            <TextView style="@style/underlineStyle" />
+
+        </RelativeLayout>
+        <!-- 引导近来的布局，这里要注意了 -->
+    </LinearLayout>
+</ScrollView>

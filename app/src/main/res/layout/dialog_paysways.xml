@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/cb_paysway_staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="城镇职工基本医疗保险" />
+
+    <CheckBox
+        android:id="@+id/cb_paysway_inmate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="城镇居民基本医疗保险" />
+
+    <CheckBox
+        android:id="@+id/cb_paysway_village"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新型农村合作医疗" />
+
+    <CheckBox
+        android:id="@+id/cb_paysway_poverty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="贫困救助" />
+
+    <CheckBox
+        android:id="@+id/cb_paysway_commerce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="商业医疗保险" />
+
+    <CheckBox
+        android:id="@+id/cb_paysway_public"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全公费" />
+
+    <CheckBox
+        android:id="@+id/cb_paysway_private"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全自费" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="其他支付方式:" />
+
+        <EditText
+            android:id="@+id/et_paysways_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="请输入其他补贴" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_check_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+
+</LinearLayout>

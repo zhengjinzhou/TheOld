@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/cb_annuity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退休金/养老金"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_children"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="子女补贴"
+        />
+    <CheckBox
+        android:id="@+id/cb_income_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="亲友资助"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他补贴:"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:id="@+id/et_income_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入其他补贴"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_check_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        />
+
+
+</LinearLayout>

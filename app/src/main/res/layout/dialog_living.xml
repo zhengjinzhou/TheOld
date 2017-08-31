@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/cb_alone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="独居"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_mate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="与配偶居住"
+        />
+    <CheckBox
+        android:id="@+id/cb_children"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="与子女居住"
+        />
+    <CheckBox
+        android:id="@+id/cb_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="与父母居住"
+        />
+    <CheckBox
+        android:id="@+id/cb_brother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="与兄弟姐妹居住"
+        />
+    <CheckBox
+        android:id="@+id/cb_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="与其他亲戚居住"
+        />
+    <CheckBox
+        android:id="@+id/cb_not_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="与非亲属关系的人居住"
+        />
+    <CheckBox
+        android:id="@+id/cb_retirement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="养老机构"
+        />
+    <Button
+        android:id="@+id/bt_check_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        />
+
+
+</LinearLayout>

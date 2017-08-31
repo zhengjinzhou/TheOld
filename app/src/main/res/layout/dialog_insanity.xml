@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/cb_insanity_nothing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="无精神病表现" />
+
+    <CheckBox
+        android:id="@+id/cb_insanity_schizophrenia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="精神分裂症" />
+
+    <CheckBox
+        android:id="@+id/cb_insanity_bipolar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="双向情感障碍" />
+
+    <CheckBox
+        android:id="@+id/cb_insanity_stubborn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="偏执型情感障碍" />
+
+    <CheckBox
+        android:id="@+id/cb_insanity_disorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分裂情感性精神障碍" />
+
+    <CheckBox
+        android:id="@+id/cb_insanity_epilepsy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="癫痫所致精神障碍" />
+
+    <CheckBox
+        android:id="@+id/cb_insanity_lag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="精神发育迟滞伴发精神障碍" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="其他表现：" />
+
+        <EditText
+            android:id="@+id/et_insanity_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="请输入其他表现" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_check_ensure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+
+</LinearLayout>

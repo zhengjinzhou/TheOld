@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/im_photo"
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/model" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_photo_communication"
+                style="@style/StyleDetailData"
+                android:text="感知沟通：0" />
+
+            <TextView
+                android:id="@+id/tv_photo_custom"
+                style="@style/StyleDetailData"
+                android:text="行为习惯：0" />
+
+            <TextView
+                android:id="@+id/tv_photo_activity"
+                style="@style/StyleDetailData"
+                android:text="日常活动：0" />
+
+            <TextView
+                android:id="@+id/tv_photo_state"
+                style="@style/StyleDetailData"
+                android:text="精神状态：0" />
+
+            <TextView
+                android:id="@+id/tv_photo_participation"
+                style="@style/StyleDetailData"
+                android:text="社会参与：0" />
+            <TextView
+                android:id="@+id/tv_iv_date"
+                style="@style/StyleDetailData"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="2000年00月00日"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <VideoView
+                android:id="@+id/vv_video"
+                android:layout_width="220dp"
+                android:layout_height="150dp"
+                android:src="@mipmap/model" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_video_communication"
+                android:text="感知沟通：0"
+                style="@style/StyleDetailData" />
+
+            <TextView
+                android:id="@+id/tv_video_custom"
+                style="@style/StyleDetailData"
+                android:text="行为习惯：0"
+                />
+
+            <TextView
+                android:id="@+id/tv_video_activity"
+                style="@style/StyleDetailData"
+                android:text="日常活动：0"
+                />
+
+            <TextView
+                android:id="@+id/tv_video_state"
+                style="@style/StyleDetailData"
+                android:text="精神状态：0"
+                />
+            <TextView
+                android:id="@+id/tv_video_participation"
+                style="@style/StyleDetailData"
+                android:text="社会参与：0" />
+
+            <TextView
+                android:id="@+id/tv_vv_date"
+                style="@style/StyleDetailData"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="2000年00月00日"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

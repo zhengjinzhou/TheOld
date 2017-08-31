@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_accident_dumble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无跌倒 " />
+
+        <CheckBox
+            android:id="@+id/cb_dumble_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跌倒一次" />
+
+        <CheckBox
+            android:id="@+id/cb_dumble_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跌倒两次" />
+
+        <CheckBox
+            android:id="@+id/cb_dumble_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跌倒两次" />
+
+        <CheckBox
+            android:id="@+id/cb_accident_losting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无走失" />
+
+        <CheckBox
+            android:id="@+id/cb_losting_noe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="走失一次" />
+
+        <CheckBox
+            android:id="@+id/cb_losting_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="走失两次" />
+        <CheckBox
+            android:id="@+id/cb_losting_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="走失三次及以上" />
+        <CheckBox
+            android:id="@+id/cb_illenss_dysphagia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无噎食" />
+        <CheckBox
+            android:id="@+id/cb_dysphagia_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="噎食一次" />
+        <CheckBox
+            android:id="@+id/cb_dysphagia_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="噎食两次" />
+        <CheckBox
+            android:id="@+id/cb_dysphagia_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="噎食发生过三次及三次以上" />
+        <CheckBox
+            android:id="@+id/cb_accident_kill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无自杀" />
+        <CheckBox
+            android:id="@+id/cb_kill_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自杀一次" />
+        <CheckBox
+            android:id="@+id/cb_kill_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自杀两次" />
+        <CheckBox
+            android:id="@+id/cb_kill_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自杀三次及以上" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="其他意外：" />
+
+            <EditText
+                android:id="@+id/et_accident_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="请输入其他表现" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_check_ensure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确定" />
+
+    </LinearLayout>
+</ScrollView>

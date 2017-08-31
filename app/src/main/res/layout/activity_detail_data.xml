@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp" >
+
+            <TextView
+                android:id="@+id/tv_detail_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/back"
+                android:text="生活录"
+                android:textColor="#1296db"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="详细资料"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/iv_detail_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@mipmap/add" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_detail_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ccc"
+            android:orientation="horizontal"
+            android:padding="15dp" >
+
+            <ImageView
+                android:id="@+id/im_old_photo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/model" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_detail_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:singleLine="true"
+                    android:text="name"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="某某市某某区"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:textColor="#f00"
+            />
+        <ListView
+            android:id="@+id/lv_detail_data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </LinearLayout>
+
+</ScrollView>

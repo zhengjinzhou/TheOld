@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_illness_nothing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="未明确诊断患有疾病" />
+
+        <CheckBox
+            android:id="@+id/cb_illness_hypertension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高血压" />
+
+        <CheckBox
+            android:id="@+id/cb_illness_CHD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="冠心病" />
+
+        <CheckBox
+            android:id="@+id/cb_illness_heart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="心律不齐" />
+
+        <CheckBox
+            android:id="@+id/cb_illness_diabetes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="糖尿病" />
+
+        <CheckBox
+            android:id="@+id/cb_illness_digestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="消化系统疾病" />
+
+        <CheckBox
+            android:id="@+id/cb_illenss_bone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="骨、关节疾病" />
+        <CheckBox
+            android:id="@+id/cb_illenss_hyperlipaemia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高血脂" />
+        <CheckBox
+            android:id="@+id/cb_illenss_brain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="脑血管疾病" />
+        <CheckBox
+            android:id="@+id/cb_illenss_cancer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="癌症" />
+        <CheckBox
+            android:id="@+id/cb_illenss_kidney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="慢性肾脏疾病" />
+        <CheckBox
+            android:id="@+id/cb_illenss_anemia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="贫血" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="其他疾病：" />
+
+            <EditText
+                android:id="@+id/et_illenss_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="请输入其他表现" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_check_ensure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确定" />
+
+    </LinearLayout>
+</ScrollView>
